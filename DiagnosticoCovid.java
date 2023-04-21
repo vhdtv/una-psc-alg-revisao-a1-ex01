@@ -1,7 +1,5 @@
 package sintaxe_basica;
-
 import java.util.Scanner;
-
 public class DiagnosticoCovid {
 	public static void main(String[] args) {
 		try (Scanner scan = new Scanner(System.in)) {
@@ -128,5 +126,4 @@ public class DiagnosticoCovid {
 				System.out.println("Você ficará sob observação por 05 dias.");
 		}
 	}
-
 }
